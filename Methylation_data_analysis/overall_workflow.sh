@@ -56,19 +56,19 @@ perl Scripts/modify_2011.pl Data/Rm2011_sativa_proximal_motifs.gff > Data/Rm2011
 sh initAnalysis.sh Data/Rm2011_sativa_proximal_motifs.csv Data/Rm2011_sativa_proximal_motifs_modified.gff Genomes/GCA_000346065.1_ASM34606v1_genomic.gff Genomes/GCA_000346065.1_ASM34606v1_genomic.fna 1
 mv Output/* Output2/Rm2011_sativa_proximal_1/
 
-# Rm2011 ∆pSymAB succinate
-mkdir Output2/pSymAB_succinate_1/
-mkdir Output2/pSymAB_succinate_2/
-mkdir Output2/pSymAB_succinate_3/
+# Rm2011 ∆pSymAB sucrose
+mkdir Output2/pSymAB_sucrose_1/
+mkdir Output2/pSymAB_sucrose_2/
+mkdir Output2/pSymAB_sucrose_3/
 perl Scripts/modify_2011.pl Data/10635469-motifs.gff > Data/10635469-motifs_modified.gff
 perl Scripts/modify_2011.pl Data/10635470-motifs.gff > Data/10635470-motifs_modified.gff
 perl Scripts/modify_2011.pl Data/10635502-motifs.gff > Data/10635502-motifs_modified.gff
 sh initAnalysis.sh Data/10635465-motifs.csv Data/10635469-motifs_modified.gff Genomes/GCA_000346065.1_ASM34606v1_genomic.gff Genomes/GCA_000346065.1_ASM34606v1_genomic.fna 1
-mv Output/* Output2/pSymAB_succinate_1/
+mv Output/* Output2/pSymAB_sucrose_1/
 sh initAnalysis.sh Data/10635465-motifs.csv Data/10635470-motifs_modified.gff Genomes/GCA_000346065.1_ASM34606v1_genomic.gff Genomes/GCA_000346065.1_ASM34606v1_genomic.fna 1
-mv Output/* Output2/pSymAB_succinate_2/
+mv Output/* Output2/pSymAB_sucrose_2/
 sh initAnalysis.sh Data/10635465-motifs.csv Data/10635502-motifs_modified.gff Genomes/GCA_000346065.1_ASM34606v1_genomic.gff Genomes/GCA_000346065.1_ASM34606v1_genomic.fna 1
-mv Output/* Output2/pSymAB_succinate_3/
+mv Output/* Output2/pSymAB_sucrose_3/
 
 # OV14 succinate
 mkdir Output2/OV14_succinate_1/
