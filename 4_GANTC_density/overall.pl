@@ -1,6 +1,12 @@
 #!usr/bin/perl
 use 5.010;
 
+# Get files
+system("mkdir Sinorhizobium");
+system("mkdir Sinorhizobium2");
+system("perl downloadGenomes.pl genomeList_sino.txt");
+system("perl downloadGenomes2.pl genomeList_sino.txt");
+
 # make an array of the species names
 $species_list = 'genomeList_sino.txt';
 open($species,'<',$species_list);
