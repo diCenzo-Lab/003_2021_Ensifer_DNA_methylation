@@ -37,3 +37,10 @@ samtools coverage BAM_files/Rm2011_succinate_3.bam > Output/Rm2011_succinate_3.t
 samtools coverage BAM_files/FSM-MA_alfalfa_3.bam > Output/FSM-MA_alfalfa_3.txt
 samtools coverage BAM_files/FSM-MA_truncatula_3.bam > Output/FSM-MA_truncatula_3.txt
 samtools coverage BAM_files/FSM-MA_succinate_3.bam > Output/FSM-MA_succinate_3.txt
+
+samtools coverage BAM_files/analysis-A17_wt_b-446-mapped.bam > Output/A17.txt
+samtools coverage BAM_files/analysis-dnf1_b-445-mapped-002.bam > Output/dnf1.txt
+samtools coverage BAM_files/analysis-dnf2_b-444-mapped.bam > Output/dnf2.txt
+samtools coverage BAM_files/analysis-dnf4_b-450-mapped-002.bam > Output/dnf4.txt
+samtools coverage BAM_files/analysis-dnf5_b-449-mapped-002.bam > Output/dnf5.txt
+samtools coverage BAM_files/analysis-dnf7_b-448-mapped-002.bam > Output/dnf7.txt

@@ -179,3 +179,19 @@ sh initAnalysis.sh Data/analysis-FSM_rep2-183-motifs.csv Data/analysis-FSM_rep2-
 mv Output/* Output2/FSM-MA_stationary_2/
 sh initAnalysis.sh Data/analysis-FSM_rep3-182-motifs.csv Data/analysis-FSM_rep3-182-motifs_modified.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.fna 1
 mv Output/* Output2/FSM-MA_stationary_3/
+
+# FSM-MA dnf nodules (and A17 control)
+mkdir Output2/FSM-MA_dnf_nodules_1/
+perl Scripts/modify_FSMMA.pl Data/analysis-A17_wt_b-534-motifs.gff > Data/analysis-A17_wt_b-534-motifs_modified.gff
+perl Scripts/modify_FSMMA.pl Data/analysis-dnf1_b-533-motifs.gff > Data/analysis-dnf1_b-533-motifs_modified.gff
+perl Scripts/modify_FSMMA.pl Data/analysis-dnf2_b-532-motifs.gff > Data/analysis-dnf2_b-532-motifs_modified.gff
+perl Scripts/modify_FSMMA.pl Data/analysis-dnf4_b-531-motifs.gff > Data/analysis-dnf4_b-531-motifs_modified.gff
+perl Scripts/modify_FSMMA.pl Data/analysis-dnf5_b-530-motifs.gff > Data/analysis-dnf5_b-530-motifs_modified.gff
+perl Scripts/modify_FSMMA.pl Data/analysis-dnf7_b-529-motifs.gff > Data/analysis-dnf7_b-529-motifs_modified.gff
+sh initAnalysis.sh Data/analysis-A17_wt_b-446-motifs.csv Data/analysis-A17_wt_b-534-motifs_modified.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.fna 1
+sh initAnalysis.sh Data/analysis-dnf1_b-445-motifs.csv Data/analysis-dnf1_b-533-motifs_modified.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.fna 1
+sh initAnalysis.sh Data/analysis-dnf2_b-444-motifs.csv Data/analysis-dnf2_b-532-motifs_modified.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.fna 1
+sh initAnalysis.sh Data/analysis-dnf4_b-450-motifs.csv Data/analysis-dnf4_b-531-motifs_modified.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.fna 1
+sh initAnalysis.sh Data/analysis-dnf5_b-449-motifs.csv Data/analysis-dnf5_b-530-motifs_modified.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.fna 1
+sh initAnalysis.sh Data/analysis-dnf7_b-448-motifs.csv Data/analysis-dnf7_b-529-motifs_modified.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.gff Genomes/GCA_002215195.1_ASM221519v1_genomic.fna 1
+mv Output/* Output2/FSM-MA_dnf_nodules_1/
