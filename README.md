@@ -1,4 +1,4 @@
-# Ensifer DNA methylation
+# DNA methylation in *Ensifer* species during free-living growth and during nitrogen-fixing symbiosis with *Medicago* spp.
 
 diCenzo GC, Cangioli L, Nicoud Q, Cheng JHT, Blow MJ, Shapiro N, Woyke T, Biondi EG, Alunni B, Mengoni A, Mergaert P. (2022) DNA methylation in *Ensifer* species during free-living growth and during nitrogen-fixing symbiosis with *Medicago* spp. mSystems. 7(1): e01092-21.
 
